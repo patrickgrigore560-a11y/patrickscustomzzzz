@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "patrickszcustoms",
+  "version": "${version}",
+  "name": "patrickszcustoms 1.21.11",
+  "description": "Vibecoded: custom crosshair manager, animated menu transitions and an in-game config GUI with rebindable key.",
+  "authors": ["patrickszcustoms (vibecoded)"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["ro.patrickszcustoms.PatrickszCustomsClient"] },
+  "mixins": ["patrickszcustoms.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
